@@ -23,7 +23,7 @@ public class QueryStudentDemo {
 		
 		try {
 			
-			//start the student object
+			//start a transaction
 			session.beginTransaction();
 			
 			//query students

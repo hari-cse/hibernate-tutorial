@@ -26,7 +26,7 @@ public class PrimaryKeyDemo {
 			Student tempStudent2 = new Student("Mary","Public","mary@abc.com");
 			Student tempStudent3 = new Student("Bonita","Wall","bonita@abc.com");
 			
-			//start the student object
+			//start a transaction
 			session.beginTransaction();
 			
 			//save the student object

@@ -31,7 +31,7 @@ public class CreateStudentDemo {
             
             Student tempStudent = new Student("Paully", "Doe", theDateOfBirth, "paul@luv.com");
 			
-			//start the student object
+            //start a transaction
 			session.beginTransaction();
 			
 			//save the student object
